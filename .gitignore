@@ -48,9 +48,13 @@ coverage.xml
 # Django stuff:
 *.log
 *.pot
+db.sqlite3
 
 # Sphinx documentation
 docs/_build/
 
 # Mac Stuff
 .DS_Store
+
+# Aptana/Eclipse artifacts
+.metadata
