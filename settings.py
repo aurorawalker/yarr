@@ -22,6 +22,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'south',
+    'kitchen'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -33,9 +35,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'yarr_web.urls'
+ROOT_URLCONF = 'urls'
 
-WSGI_APPLICATION = 'yarr_web.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 DATABASES = {
