@@ -40,8 +40,12 @@ WSGI_APPLICATION = 'yarr_web.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'recipes',
+        'USER': 'ipatch',
+        'PASSWORD': 'food',
+        'HOST': 'ghost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 

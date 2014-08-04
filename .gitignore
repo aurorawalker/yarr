@@ -58,3 +58,9 @@ VisualStudio/bin/
 
 # Mac Stuff
 .DS_Store
+db.sqlite3
+VisualStudio/yarr.v12.suo
+tablesonly.sql
+web.config
+web.debug.config
+ptvs_virtualenv_proxy.py
