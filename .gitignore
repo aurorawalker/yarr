@@ -53,6 +53,10 @@ db.sqlite3
 # Sphinx documentation
 docs/_build/
 
+# Visual Studio
+VisualStudio/obj/
+VisualStudio/bin/
+
 # Mac Stuff
 .DS_Store
 
